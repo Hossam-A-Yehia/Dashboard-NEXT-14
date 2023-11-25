@@ -1,0 +1,26 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+ul {
+  text-decoration: none;
+}
+
+.pending {
+  background-color: #607d8b;
+}
+.done {
+  background-color: #0076d3;
+}
+.cancelled {
+  background-color: #7d0808;
+}
+.char {
+  width: 100% !important;
+  height: 300px !important;
+}
